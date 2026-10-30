@@ -1,176 +1,115 @@
-# 🚀 omniApi
+# 🚀 omniApi – Free APIs for Developers
 
-**One API. Multiple Possibilities.**
+**Discover useful APIs. Build amazing projects.**
 
-omniApi is a free API service designed to provide useful downloading and utility features for developers. It can be integrated into websites, Android applications, browser extensions, and other projects.
+**omniApi** is a free API platform created to provide developers with useful APIs for building applications, websites, browser extensions, and automation tools.
 
-Whether you're building an Instagram downloader, YouTube downloader, GitHub file downloader, or browser extension, omniApi provides a central API service to help power your project.
+From Instagram and YouTube downloader APIs to GitHub downloading utilities, omniApi brings multiple developer-focused API services together in one place.
 
-<p align="center">
-  <a href="https://github.com/MrTusarRX/Free-apis">
-    <img src="https://img.shields.io/badge/GitHub-Free--apis-black?style=for-the-badge&logo=github" alt="GitHub Repository">
-  </a>
-  <img src="https://img.shields.io/badge/API-omniApi-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Access-Free-green?style=for-the-badge">
-</p>
+Whether you're an Android developer, web developer, or browser extension developer, omniApi helps you find useful APIs for your next project.
 
 ---
 
-## 🌐 API Information
+## 🌐 Explore omniApi
 
-| Property | Details |
-|---|---|
-| API Name | omniApi |
-| API Type | REST API |
-| Access | Free |
-| Base URL | `http://otp.giftdealshub.in/omniApi` |
-| Repository | [MrTusarRX/Free-apis](https://github.com/MrTusarRX/Free-apis) |
+<https://otp.giftdealshub.in/omniApi>
 
-### Base URL
+Visit the omniApi website to explore the available APIs and their documentation.
 
-```text
-http://otp.giftdealshub.in/omniApi
-```
+## ✨ Available API Services
 
-All API requests should use the base URL above, followed by the appropriate endpoint.
+### 📸 Instagram Downloader API
+Useful for developers building Instagram-related downloader applications and web tools.
 
----
+### ▶️ YouTube Downloader API
+API functionality for developers building YouTube-related downloader projects.
 
-## ✨ Features
+### 🐙 GitHub Downloader API
+Utilities for downloading GitHub repositories and files in developer applications.
 
-omniApi is designed to support multiple services from one API platform.
-
-### 📸 Instagram Downloader
-- Instagram media downloading support.
-- Designed for integration into downloader applications and websites.
-- Useful for building Instagram-related tools.
-
-### ▶️ YouTube Downloader
-- YouTube-related downloading functionality.
-- Can be integrated into compatible applications and projects.
-- Supports building downloader interfaces around the API.
-
-### 🐙 GitHub Downloader
-- GitHub repository and file downloading utilities.
-- Useful for developers who want to build GitHub-related download tools.
-
-### 🌐 Browser Extension Support
-Designed for integration with browser extensions, including:
+### 🌐 Browser Extension Integration
+Use supported APIs in browser extensions for:
 
 - Google Chrome
 - Mozilla Firefox
-- Other compatible Chromium-based browsers
+- Other compatible browsers
 
-### 🔧 More Utilities
-omniApi is intended to grow with additional API endpoints and developer utilities.
-
----
-
-## 💻 Supported Platforms
-
-| Platform | Support |
-|---|---|
-| Android Applications | Integration |
-| Websites | Integration |
-| Google Chrome Extensions | Integration |
-| Mozilla Firefox Extensions | Integration |
-| Desktop Applications | Integration |
-| Custom Developer Projects | Integration |
+### 🔧 More APIs & Utilities
+omniApi is designed to bring more useful APIs and developer utilities into one platform.
 
 ---
 
-## 🚀 Getting Started
+## 💻 Who Can Use omniApi?
 
-You can use omniApi as the backend API service for your own project.
+omniApi is useful for:
 
-### 1. API Base URL
-
-```text
-http://otp.giftdealshub.in/omniApi
-```
-
-### 2. Make an API Request
-
-Example using JavaScript:
-
-```javascript
-const API_BASE_URL = "http://otp.giftdealshub.in/omniApi";
-
-// Replace this with an actual documented endpoint.
-async function callOmniApi(endpoint) {
-    const response = await fetch(`${API_BASE_URL}${endpoint}`);
-
-    if (!response.ok) {
-        throw new Error(`API request failed: ${response.status}`);
-    }
-
-    return await response.json();
-}
-```
-
-> **Note:** Replace the example endpoint with an actual endpoint supported by your omniApi server. Check the API implementation for required parameters, headers, and response formats.
+- Android application developers
+- Website developers
+- Frontend and backend developers
+- Chrome extension developers
+- Firefox extension developers
+- Students and programming enthusiasts
+- Developers building personal projects
 
 ---
 
-## 📱 Use Cases
+## 🚀 How to Get Started
 
-You can integrate omniApi into:
+1. Visit [omniApi](https://otp.giftdealshub.in/omniApi).
+2. Explore the available API services.
+3. Open the documentation for the API you want to use.
+4. Follow its specific integration instructions.
+5. Integrate the API into your project.
 
-- Instagram downloader applications.
-- YouTube-related downloader tools.
-- GitHub repository downloading tools.
-- Chrome and Firefox extensions.
-- Android applications.
-- Personal developer projects.
-- Web-based utility platforms.
+**Important:** Each API may have its own endpoint, parameters, request method, and response format. Refer to the corresponding API documentation instead of assuming one common API URL.
 
 ---
 
-## 🔗 Project Links
+## 🔗 Important Links
 
 | Resource | Link |
 |---|---|
-| GitHub Repository | [Free-apis](https://github.com/MrTusarRX/Free-apis) |
-| API Base URL | [omniApi](http://otp.giftdealshub.in/omniApi) |
+| 🌐 omniApi Website | [Explore omniApi](https://otp.giftdealshub.in/omniApi) |
+| 💻 GitHub Repository | [MrTusarRX/Free-apis](https://github.com/MrTusarRX/Free-apis) |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions and suggestions are welcome!
+Contributions, suggestions, and improvements are welcome!
 
-If you want to improve omniApi:
+If you want to contribute:
 
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes.
-4. Test your implementation.
+4. Test your changes.
 5. Submit a Pull Request.
 
-You can also open an issue to report bugs or suggest new API features.
+You can also report issues or suggest new API services through GitHub Issues.
 
 ---
 
 ## ⚠️ Disclaimer
 
-- omniApi is provided as a developer utility service.
-- Availability and functionality depend on the API implementation and server status.
-- Third-party platform integrations may change when their services or policies change.
-- Users are responsible for complying with applicable laws and third-party platform terms.
-- Do not use the service to download or distribute content without the necessary permissions.
+- omniApi is provided as a developer-focused API platform.
+- API availability and functionality may depend on server status and third-party services.
+- Third-party platforms may change their services, which can affect API functionality.
+- Developers are responsible for using APIs in accordance with applicable laws and platform terms.
+- Respect content ownership, privacy, and third-party rights when using downloading-related APIs.
 
 ---
 
 ## 📄 License
 
-Check the repository for the applicable license and usage permissions:
+Please refer to the repository for licensing and usage permissions.
 
-[View Repository](https://github.com/MrTusarRX/Free-apis)
+[View GitHub Repository](https://github.com/MrTusarRX/Free-apis)
 
 ---
 
 <p align="center">
-  **Built for developers, by developers.** 🚀
-  <br>
-  <a href="https://github.com/MrTusarRX/Free-apis">MrTusarRX / Free-apis</a>
+  **omniApi – Useful APIs, One Platform.** 🚀
+  <br><br>
+  Created by <a href="https://github.com/MrTusarRX">MrTusarRX</a>
 </p>
